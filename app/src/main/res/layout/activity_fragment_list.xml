@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/L1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Titanic"
+        android:background="@color/silver"/>
+    <Button
+        android:id="@+id/L2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="The Avengers"
+        android:background="@color/gray"/>
+    <Button
+        android:id="@+id/L3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/silver"
+        android:outlineProvider="background"
+        android:text="The Dark Knight"/>
+    <Button
+        android:id="@+id/L4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/gray"
+        android:text="Star Wars I"/>
+    <Button
+        android:id="@+id/L5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/silver"
+        android:text="Star Wars IV "/>
+</LinearLayout>

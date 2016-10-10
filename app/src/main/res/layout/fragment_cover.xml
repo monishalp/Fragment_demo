@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:id="@+id/fragcover" android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Heading"
+        android:text="Fragments Demonstration"
+        android:textSize="20dp"
+        android:textColor="@color/navy"
+        android:textColorHighlight="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/T2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduction to Fragments"
+        android:textStyle="italic"
+
+        android:textColor="@color/navy"
+
+        android:layout_below="@+id/Heading"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:id="@+id/ImgF"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:src="@drawable/frag"
+        android:layout_below="@+id/T2"
+        android:layout_centerHorizontal="true" />
+
+        <Button
+        android:id="@+id/AboutMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AboutMe"
+        android:textSize="10dp"
+            android:layout_alignTop="@+id/MoviePager"
+            android:layout_toStartOf="@+id/MoviePager"
+            />
+
+    <Button
+        android:id="@+id/MoviePager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MoviePager"
+        android:textSize="10dp"
+
+
+        android:layout_alignTop="@+id/MovieList"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/MovieList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MovieList"
+
+        android:textSize="10dp"
+        android:layout_below="@+id/ImgF"
+        android:layout_toEndOf="@+id/MoviePager" />
+
+</RelativeLayout>
